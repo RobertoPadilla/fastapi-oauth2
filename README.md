@@ -11,3 +11,8 @@ source bin/activate
 ~~~bash
 pip install -r requirements.txt
 ~~~
+3. Run server
+~~~bash
+# main is file name without extension
+hypercorn main:app --reload
+~~~

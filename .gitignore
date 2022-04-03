@@ -5,3 +5,5 @@ lib/
 share/
 pyvenv.cfg
 lib64
+# python unnecesary files
+__pycache__/
