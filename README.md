@@ -1,6 +1,6 @@
 <h1><center>API Protected with oauth2</center></h1>
 
-<h2>Testing project:</h2>
+<h2>Testing example:</h2>
 
 1. Install your own venv
 ~~~bash
@@ -14,5 +14,5 @@ pip install -r requirements.txt
 3. Run server
 ~~~bash
 # main is file name without extension
-hypercorn main:app --reload
+hypercorn example:app --reload
 ~~~
